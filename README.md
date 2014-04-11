@@ -3,6 +3,8 @@
 
 Bgvideo is a simple jquery plugin that lets you set a video as a background to a div (or screen). The video will stretch to fit the screen or be absolute positioned to be in the center. There is also a image fallback for mobile devices or browsers that don't support the video tag.
 
+The video tag gets inserted after load by the plugin, so it won't load the video file on mobile devices (if specified) or non supported browsers ( Modernizr is required for this plugin to work) 
+
 ## Setup 
 
   Include the jquery  and Modernizr ( both required!) and videobg in your html file. 
